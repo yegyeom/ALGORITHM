@@ -1,6 +1,6 @@
 #include <iostream>
 #include <queue>
-#define MAX 200000
+#define MAX 100001
 
 using namespace std;
 
@@ -34,7 +34,7 @@ int main() {
             else
                 next = cur * move[i];
 
-            if (!sec[next] && next >= 0 && next <= 100000) {
+            if (next >= 0 && next <= 100000 && !sec[next]) {
                 q.push(next);
                 sec[next] = sec[cur] + 1;
             }
