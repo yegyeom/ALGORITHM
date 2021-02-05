@@ -16,10 +16,10 @@ void unionParent(int parent[], int a, int b){
     else parent[a] = b;
 }
 
+//같은 그래프에 속하는지 확인
 int findParent(int parent[], int a, int b){
     a = getParent(parent, a);
     b = getParent(parent, b);
-//    cout << "a: " << a << " b: " << b << "\n";
     if(a == b) return 1;
     else return 0;
 }
@@ -37,8 +37,8 @@ int main(){
     for(int i = 0 ; i < n ; i++){
         for(int j = 0 ; j < n ; j++){
             cin >> arr[i][j];
-            if(arr[i][j] == 1 || i==j)
-                unionParent(parent, i+1, j+1);
+            if(arr[i][j] == 1 || i==j) //같은 부모 노드를 갖도록함
+                unionParent(parent, i+1, j+1); 
         }
     }
 
