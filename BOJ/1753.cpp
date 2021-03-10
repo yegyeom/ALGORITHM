@@ -9,7 +9,7 @@ vector<pair<int, int>> graph[MAX];
 int d[MAX];
 
 void dijkstra(int start){
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //거리, 노드
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; 
    
     pq.push(make_pair(0, start));
     d[start] = 0;
@@ -18,7 +18,8 @@ void dijkstra(int start){
         int cost = pq.top().first;
         int now = pq.top().second;
         pq.pop();
-        for(int i = 0 ; i < graph[now].size() ; i++){
+
+        for(int i = 0 ; i < graph[now].size() ; i++){ 
             int next = graph[now][i].first;
             int nCost = graph[now][i].second;
             if(cost + nCost < d[next]){
@@ -38,7 +39,7 @@ int main(){
     for(int i = 0 ; i < e ; i++){
         int x, y, z;
         cin >> x >> y >> z;
-        graph[x].push_back(make_pair(y, z));
+        graph[x].push_back(make_pair(y, z)); 
     }
 
     for(int i = 1 ; i <= v ; i++){
