@@ -62,4 +62,11 @@
   
 **- 16회차 [2021-03-29]**  
 [[1654 랜선 자르기]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/1654.cpp)
-[[5052 전화번호 목록]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/5052.cpp)
+[[5052 전화번호 목록]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/5052.cpp)  
+
+**- 17회차 [2021-04-05]**  
+[[1543 문서 검색]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/1543.cpp)  
+
+**- 18회차 [2021-04-12]**  
+[[2458 키 순서]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/2458.cpp)
+[[16236 아기 상어]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/16236.cpp)
