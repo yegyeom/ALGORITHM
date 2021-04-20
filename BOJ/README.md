@@ -71,5 +71,5 @@
 [[2458 키 순서]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/2458.cpp)
 [[16236 아기 상어]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/16236.cpp)  
 
-**- 18회차 [2021-04-12]**  
+**- 19회차 [2021-04-19]**  
 [[15686 치킨 배달]](https://github.com/yegyeom/Algorithm/blob/main/BOJ/15686.cpp)
