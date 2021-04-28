@@ -1,5 +1,5 @@
-//programmers Level 1: K번째수
-//정렬
+//programmers Level 1
+//sorting
 //2021-04-28
 #include <string>
 #include <vector>
