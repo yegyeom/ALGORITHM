@@ -1,4 +1,4 @@
-//programmers Level 1: ???
+//programmers Level 1
 //Greedy Algorithm
 //2021-04-28
 #include <string>
