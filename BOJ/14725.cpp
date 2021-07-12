@@ -1,4 +1,4 @@
-//BOJ 14725?: ???
+//BOJ 14725¹ø: °³¹Ì±¼
 //2021-07-05
 #include <iostream>
 #include <vector>
