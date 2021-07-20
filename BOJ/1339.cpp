@@ -31,7 +31,7 @@ int main(){
     ch.erase(unique(ch.begin(), ch.end()), ch.end());
 
     vector<int> number;
-    //vector<int> number(ch.size()); => 시간초과
+    //vector<int> number(ch.size()); => 시간 초과
 
     for(int i = 0 ; i < ch.size() ; i++){
         number.push_back(9 - i);
