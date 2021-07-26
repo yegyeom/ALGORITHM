@@ -1,4 +1,4 @@
-//BOJ 14681¹ø: »çºÐ¸é °í¸£±â
+//BOJ 14681ë²ˆ: ì‚¬ë¶„ë©´ ê³ ë¥´ê¸°
 //2021-03-23
 #include <iostream>
 using namespace std;
