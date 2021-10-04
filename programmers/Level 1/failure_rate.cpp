@@ -1,4 +1,4 @@
-﻿//programmers Level 1: 실패율
+//programmers Level 1: 실패율
 //2019 KAKAO BLIND RECRUITMENT
 //2021-10-04
 #include <iostream>
@@ -16,18 +16,19 @@ bool cmp(pair<double, int>a, pair<double, int>b) {
 	}
     
 }
+
 vector<int> solution(int N, vector<int> stages) {
     vector<pair<double, int>> res(N);
     vector<int> answer;
     map<int, int> m;
-    int total = stages.size(); 
+    int idx = 0, total = stages.size(); 
     int max = *max_element(stages.begin(), stages.end());
 
     sort(stages.begin(), stages.end());
-    int idx = 0;
     
     for(int i = 1 ; i <= max ; i++) {
         int cnt = 0;
+        
         for(int j = idx ; j < stages.size() ; j++) {
             if(stages[j] == i) cnt++;
             else {
@@ -35,18 +36,20 @@ vector<int> solution(int N, vector<int> stages) {
                 break;
             }
         }
+
         m.insert({i, cnt});
     }
     
     for(int i = 0 ; i < N ; i++) {
-        double n = m[i+1];
-        double d = total -= m[i];
+        total -= m[i];
         
-        if(total <= 0) { //이거 안하면 틀림
+        if(total <= 0) {
             res[i] = make_pair(0, i + 1);
             continue;
         }
-        res[i] = make_pair(n / d, i + 1);
+        
+        double num = double(m[i+1]) / total;
+        res[i] = make_pair(num, i + 1);
     }
     
     sort(res.begin(), res.end(), cmp);
