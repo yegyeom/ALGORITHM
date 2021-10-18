@@ -1,11 +1,9 @@
-//programmers Level 1 : 숫자 문자열과 영단어
+//programmers Level 1: 숫자 문자열과 영단어
 //2021 카카오 채용연계형 인턴십
 //2021-09-21
 #include <string>
 #include <vector>
 #include <iostream>
-#include <cctype>
-#include <string>
 
 using namespace std;
 
