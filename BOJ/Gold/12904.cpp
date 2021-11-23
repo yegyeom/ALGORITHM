@@ -1,4 +1,4 @@
-//BOJ 12904번: A와 B
+﻿//BOJ 12904번: A와 B
 //2021-11-22
 #include <iostream>
 #include <algorithm>
@@ -9,12 +9,11 @@ int main() {
     string s, t, tmp;
     cin >> s >> t;
 
-    while(t.length() >= s.length()){
-        if(t[t.length() - 1] == 'A') {
-            t.erase(t.length() - 1, 1);
-        }
-        else{
-            t.erase(t.length() - 1, 1);
+    while(t.length() > s.length()){
+        char last = t[t.length() - 1]; //t의 마지막 글자 
+        t.erase(t.length() - 1, 1); //t의 마지막 글자 제거
+        
+        if(last == 'B'){
             reverse(t.begin(), t.end());
         }
 
