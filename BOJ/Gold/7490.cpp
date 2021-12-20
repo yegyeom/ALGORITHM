@@ -14,50 +14,50 @@ int dpArr[8] = {0,};
 
 void duplicatePermutation(int depth) {
     if(depth == r) { // 0: 더하기 1: 빼기 2: 붙이기
-        int num = 0, cnt = 0;
-        string str = "1", result = "1", tmp;
+        int sum = 0, cnt = 0;
+        string calc = "1", origin = "1", tmp;
 
         for(int i = 1 ; i <= r ; i++) {
             if(dpArr[i - 1] == 0) {
                 tmp = "+" + to_string(i + 1);
-                str += tmp; result += tmp;
+                calc += tmp; origin += tmp;
             }
             else if(dpArr[i - 1] == 1) {
                 tmp = "-" + to_string(i + 1);
-                str += tmp; result += tmp;
+                calc += tmp; origin += tmp;
             }
             else {
-                str += to_string(i + 1);
-                result += " " + to_string(i + 1);
+                calc += to_string(i + 1);
+                origin += " " + to_string(i + 1);
             }
         }
 
-        for(int i = 0 ; i < str.length() ; i++) {
+        for(int i = 0 ; i < calc.length() ; i++) {
             tmp.clear();
             cnt = 0;
 
-            if(isdigit(str[i])) {
-                while(isdigit(str[i])){
-                    tmp += str[i++];
+            if(isdigit(calc[i])) {
+                while(isdigit(calc[i])){
+                    tmp += calc[i++];
                     cnt++;
                 }
                 
                 i--;
 
                 if(cnt == 1) {
-                    if(str[i - cnt] == '+') num += str[i] - '0';
-                    else if(str[i - cnt] == '-') num -= str[i] - '0';
-                    else num = str[i] - '0';
+                    if(calc[i - cnt] == '+') sum += calc[i] - '0';
+                    else if(calc[i - cnt] == '-') sum -= calc[i] - '0';
+                    else sum = calc[i] - '0';
                 }
                 else if(cnt > 1) {
-                    if(str[i - cnt] == '+') num += stoi(tmp);
-                    else if(str[i - cnt] == '-') num -= stoi(tmp);
-                    else num = stoi(tmp);
+                    if(calc[i - cnt] == '+') sum += stoi(tmp);
+                    else if(calc[i - cnt] == '-') sum -= stoi(tmp);
+                    else sum = stoi(tmp);
                 }
             }
         }
 
-        if(num == 0) ans.push_back(result);
+        if(sum == 0) ans.push_back(origin);
         return;
     }
 
