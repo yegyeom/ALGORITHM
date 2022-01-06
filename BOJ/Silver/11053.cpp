@@ -1,35 +1,40 @@
-//BOJ 11053번: 가장 긴 증가하는 수열
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 11053번: 가장 긴 증가하는 부분 수열
+date: 2021-05-28
+update: 2022-01-06 
+*/
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    vector<int> v;
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); 
     int n, num;
     cin >> n;
 
-    for(int i = 0 ; i < n ; i++){
+    vector<int> vec;
+
+    for(int i = 0 ; i < n ; i++) {
         cin >> num;
 
-        if(i == 0 || num > v.back()){
-            v.push_back(num);
+        if(vec.empty()) {
+            vec.push_back(num);
+            continue;
         }
-        else if(num < v.back()){
-            for(int i = 0 ; i < v.size() ; i++){
-                if(v[i] == num)
-                    break;
-                else if(v[i] > num){
-                    v[i] = num;
-                    break;
-                }
-            }
+        
+        int back = vec.back();
+
+        if(num > back) {
+            vec.push_back(num);
+            continue;
         }
+
+        int idx = lower_bound(vec.begin(), vec.end(), num) - vec.begin();
+        vec[idx] = num;
     }
 
-    cout << v.size();
-    
+    cout << vec.size();
+
     return 0;
 }
