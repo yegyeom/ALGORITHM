@@ -1,15 +1,15 @@
 /*
-BOJ 15650번: N과 M (2)
+BOJ 15652번: N과 M (4)
 2022-01-06
 Backtracking
 */
 #include <iostream>
-#define MAX 8
+#define MAX 9
 using namespace std;
 
 int n, m;
-int arr[MAX]; 
-bool visited[MAX]; 
+int arr[MAX];
+bool visited[MAX];
 
 void dfs(int num, int cnt){
     if(cnt == m) {
@@ -19,11 +19,9 @@ void dfs(int num, int cnt){
     }
 
     for(int i = num ; i <= n ; i++){
-        if(visited[i]) continue;
-
         arr[cnt] = i;
         visited[i] = true;
-        dfs(i + 1, cnt + 1);
+        dfs(i, cnt + 1);
         visited[i] = false;
     }
 }
