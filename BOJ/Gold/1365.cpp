@@ -18,12 +18,11 @@ int main(){
     for(int i = 0 ; i < n ; i++) {
         cin >> num;
 
-        int idx = lower_bound(vec.begin(), vec.end(), num) - vec.begin();
-
         if(vec.empty()) vec.push_back(num);
         else {
             int back = vec.back();
-
+            int idx = lower_bound(vec.begin(), vec.end(), num) - vec.begin();
+            
             if(num > back) vec.push_back(num);
             else vec[idx] = num;
         }
