@@ -1,6 +1,7 @@
 /*
 BOJ 11659번: 구간 합 구하기 4
-2022-01-21
+DATE: 2022-01-21
+Prefix Sum
 */
 #include <iostream>
 using namespace std;
