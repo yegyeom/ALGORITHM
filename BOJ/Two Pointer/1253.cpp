@@ -1,7 +1,7 @@
 /*
 BOJ 1253번: 좋다
 DATE: 2022-01-18
-Two pointers
+Two pointer
 */
 #include <iostream>
 #include <vector>

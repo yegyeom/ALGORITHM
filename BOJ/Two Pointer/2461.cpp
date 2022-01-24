@@ -1,7 +1,7 @@
 /*
 BOJ 2461번: 대표 선수
 DATE: 2022-01-18
-Two pointers
+Two pointer
 */
 #include <iostream>
 #include <vector>
