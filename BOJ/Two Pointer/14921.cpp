@@ -1,7 +1,7 @@
 /*
 BOJ 14921번: 용액 합성하기
 DATE: 2022-01-17
-Two pointers
+Two pointer
 */
 #include <iostream>
 #include <vector>
