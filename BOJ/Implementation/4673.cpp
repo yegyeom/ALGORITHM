@@ -1,5 +1,7 @@
-//BOJ 4673번: 셀프 넘버
-//2021-03-23
+/*
+BOJ 4673번: 셀프 넘버
+2021-03-23
+*/
 #include <iostream>
 
 using namespace std;

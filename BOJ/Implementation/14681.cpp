@@ -1,5 +1,7 @@
-//BOJ 14681번: 사분면 고르기
-//2021-03-23
+/*
+BOJ 14681번: 사분면 고르기
+2021-03-23
+*/
 #include <iostream>
 using namespace std;
 

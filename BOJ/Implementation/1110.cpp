@@ -1,5 +1,7 @@
-//BOJ 1110번: 더하기 사이클
-//2021-03-23
+/*
+BOJ 1110번: 더하기 사이클
+2021-03-23
+*/
 #include <iostream>
 using namespace std;
 
