@@ -19,14 +19,10 @@ bool isPrime(int num) {
 
 bool isPalindrome(string str) {
     string front, back;
-    int length = str.length();
-
-    front = str.substr(0, length / 2);
-
-    if(length % 2 == 0) back = str.substr(length / 2);
-    else back = str.substr(length / 2 + 1);
-
-    reverse(back.begin(), back.end());
+    
+    front = str;
+    reverse(str.begin(), str.end());
+    back = str;
 
     if(front == back) return true;
     else return false;
