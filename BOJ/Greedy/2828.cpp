@@ -1,5 +1,7 @@
-//BOJ 2828번: 사과 담기 게임
-//2021-03-26
+/*
+BOJ 2828번: 사과 담기 게임
+2021-03-26
+*/
 #include <iostream>
 #include <cstdlib>
 using namespace std;

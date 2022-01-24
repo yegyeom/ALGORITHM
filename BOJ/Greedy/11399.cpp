@@ -1,5 +1,7 @@
-//BOJ 11399번: ATM
-//2021-03-29
+/*
+BOJ 11399번: ATM
+2021-03-29
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
