@@ -1,5 +1,8 @@
-//BOJ 2231번: 분해합
-//2021-05-18
+/*
+BOJ 2231번: 분해합
+2021-05-18
+Brute Force
+*/
 #include <iostream>
 #include <algorithm>
 #define MAX 1000001

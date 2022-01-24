@@ -1,5 +1,8 @@
-//BOJ 2309번: 일곱 난쟁이
-//2021-05-18
+/*
+BOJ 2309번: 일곱 난쟁이
+2021-05-18
+Brute Force
+*/
 #include <iostream>
 #include <algorithm>
 #define n 9
