@@ -1,6 +1,8 @@
-//BOJ 10818번: 최소, 최대 
-//sort ver
-
+/*
+BOJ 10818번: 최소, 최대 
+2021-03-30
+sort ver
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

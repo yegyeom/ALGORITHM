@@ -1,5 +1,8 @@
-//BOJ 10818번: 최소, 최대 
-//min, max ver
+/*
+BOJ 10818번: 최소, 최대 
+2021-03-30
+min, max ver
+*/
 #include <iostream>
 #include <algorithm>
 #define MAX 1000000

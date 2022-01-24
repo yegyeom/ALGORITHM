@@ -1,14 +1,17 @@
-//BOJ 10828번: 스택
-//2021-03-30
+/*
+BOJ 10845번: 큐
+2021-03-30
+*/
 #include <iostream>
-#include <stack>
-
+#include <queue>
 using namespace std;
 
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-    stack <int> s;
-    int n, num;
+    queue <int> q;
+    int num;
+
+    int n;
     cin >> n;
 
     for(int i = 0 ; i < n ; i++){
@@ -17,34 +20,34 @@ int main(){
 
         if(str == "push"){
             cin >> num;
-            s.push(num);
+            q.push(num);
         } 
         else if(str == "pop"){
-            if(s.empty())
+            if(q.empty())
                 num = -1;
             else{
-                num = s.top();
-                s.pop();
+                num = q.front();
+                q.pop();
             }
             cout << num << "\n";
         }
         else if(str == "size"){
-            cout << s.size() << "\n";
+            cout << q.size() << "\n";
         }
         else if(str == "empty"){
-            cout << s.empty() << "\n";
+            cout << q.empty() << "\n";
         }
         else if(str == "front"){
-            if(s.empty())
+            if(q.empty())
                 cout << -1 << "\n";
             else
-                cout << s.top() << "\n";
+                cout << q.front() << "\n";
         } 
-        else if(str == "top"){
-            if(s.empty())
+        else if(str == "back"){
+            if(q.empty())
                 cout << -1 << "\n";
             else
-                cout << s.top() << "\n";
+                cout << q.back() << "\n";
         }
     }
     

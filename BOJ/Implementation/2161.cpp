@@ -1,5 +1,7 @@
-//BOJ 2161번: 카드1
-//2021-03-30
+/*
+BOJ 2161번: 카드1
+2021-03-30
+*/
 #include <iostream>
 #include <queue>
 

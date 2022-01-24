@@ -1,4 +1,7 @@
-//BOJ 15552번: 빠른 A+B
+/*
+BOJ 15552번: 빠른 A+B
+2021-03-30
+*/
 #include <iostream>
 using namespace std;
 
