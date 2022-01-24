@@ -1,6 +1,6 @@
-//BOJ 1238¹ø: ÆÄÆ¼
-//Floyd Warshall Algorithm
+//BOJ 1238ë²ˆ: íŒŒí‹°
 //2021-07-12
+//Floyd Warshall Algorithm
 #include <iostream>
 #include <algorithm>
 #define MAX 1000
@@ -25,9 +25,9 @@ int main(){
         arr[start-1][end-1] = t;
     }
 
-    for(int k = 0 ; k < n ; k++){ //°ÅÃÄ°¡´Â ³ëµå
-        for(int i = 0 ; i < n ; i++){ //Ãâ¹ß ³ëµå
-            for(int j = 0 ; j < n ; j++){ //µµÂø ³ëµå
+    for(int k = 0 ; k < n ; k++){ //ê±°ì³ê°€ëŠ” ë…¸ë“œ
+        for(int i = 0 ; i < n ; i++){ //ì¶œë°œ ë…¸ë“œ
+            for(int j = 0 ; j < n ; j++){ //ë„ì°© ë…¸ë“œ
                 if(arr[i][k] + arr[k][j] < arr[i][j]){
                     arr[i][j] = arr[i][k] + arr[k][j];
                 }

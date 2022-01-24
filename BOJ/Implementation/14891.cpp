@@ -1,4 +1,4 @@
-//BOJ 14891¹ø: Åé´Ï¹ÙÄû
+//BOJ 14891ë²ˆ: í†±ë‹ˆë°”í€´
 //2021-07-12
 #include <iostream>
 #include <vector>

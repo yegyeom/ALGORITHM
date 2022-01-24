@@ -1,6 +1,6 @@
 //BOJ 2252번: 줄 세우기
-//Topology Sort
 //2021-07-12
+//Topology Sort
 #include <iostream>
 #include <queue>
 #include <vector>
