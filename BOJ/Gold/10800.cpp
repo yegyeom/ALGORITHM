@@ -1,5 +1,7 @@
-//BOJ 10800번: 컬러볼
-//2021-08-05
+/*
+BOJ 10800번: 컬러볼
+DATE: 2021-08-05
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -25,8 +27,8 @@ int main(){
 
     for(int i = 0 ; i < n ; i++){
         cin >> c >> s;
-        info[i].color = c - 1;
         info[i].size = s;
+        info[i].color = c - 1;
         info[i].index = i;
     }
 
@@ -35,26 +37,24 @@ int main(){
     for(int i = 0 ; i < n ; i++){
         idx = i;
 
-        for(int j = idx ; j < n ; j++){ //같은 크기의 공만큼 idx 증가
+        for(int j = idx ; j < n ; j++){ // 같은 크기의 공만큼 idx 증가
             if(info[i].size == info[j].size) idx++;
             else break;
         }
 
         for(int j = i ; j < idx ; j++){
-            ans[info[j].index] = sum_size - sum_color[info[j].color];
+            ans[info[j].index] = sum_size - sum_color[info[j].color]; // 자기 공과 색이 다른 공만 잡을 수 있으므로
         }
 
         for(int j = i ; j < idx ; j++){
-            sum_size += info[j].size;
-            sum_color[info[j].color] += info[j].size;
+            sum_size += info[j].size; // 전체 크기 누적
+            sum_color[info[j].color] += info[j].size; // 색상 별 크기 누적
         }
 
-        i = idx - 1;
+        i = idx - 1; // 다음 크기로 넘어감
     }
 
-    for(int i = 0 ; i < n ; i++){
-        cout << ans[i] << '\n';
-    }
+    for(int i = 0 ; i < n ; i++) cout << ans[i] << '\n';
 
     return 0;
 }
