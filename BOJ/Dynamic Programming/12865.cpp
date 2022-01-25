@@ -1,3 +1,8 @@
+/*
+BOJ 12865번: 평범한 배낭
+DATE: 2021-02-01
+Dynamic Programming
+*/
 #include <iostream>
 
 using namespace std;

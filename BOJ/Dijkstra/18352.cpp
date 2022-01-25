@@ -1,3 +1,8 @@
+/*
+BOJ 18352번: 특정 거리의 도시 찾기
+DATE: 2021-02-25
+Dijkstra Algorithm
+*/
 #include <iostream>
 #include <vector>
 #include <queue>

@@ -1,3 +1,8 @@
+/*
+BOJ 2665번: 미로만들기
+DATE: 2021-02-25
+BFS
+*/
 #include <iostream>
 #include <vector>
 #include <queue>

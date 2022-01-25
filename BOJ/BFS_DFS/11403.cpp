@@ -1,3 +1,8 @@
+/*
+BOJ 11403번: 경로 찾기
+DATE: 2021-02-22
+BFS
+*/
 #include <iostream>
 #include <queue>
 using namespace std;

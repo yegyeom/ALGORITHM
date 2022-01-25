@@ -1,3 +1,7 @@
+/*
+BOJ 14425번: 문자열 집합
+DATE: 2021-02-15
+*/
 #include <iostream>
 #include <map>
 using namespace std;

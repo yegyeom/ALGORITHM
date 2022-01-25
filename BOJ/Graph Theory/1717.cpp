@@ -1,8 +1,10 @@
+/*
+BOJ 1717번: 집합의 표현
+DATE: 2021-02-15
+Union-Find
+*/
 #include <iostream>
-#define MAX 200
 using namespace std;
-
-int arr[MAX][MAX];
 
 int getParent(int parent[], int x){
     if(parent[x] == x) return x;
@@ -16,7 +18,6 @@ void unionParent(int parent[], int a, int b){
     else parent[a] = b;
 }
 
-//같은 그래프에 속하는지 확인
 int findParent(int parent[], int a, int b){
     a = getParent(parent, a);
     b = getParent(parent, b);
@@ -29,30 +30,23 @@ int main(){
     int n, m;
     cin >> n >> m;
 
-    int parent[n+1], dst[m];
-    for(int i = 1 ; i <= n ; i++){
+    int parent[n+1];
+    for(int i = 0 ; i <= n ; i++){
         parent[i] = i;
     }
 
-    for(int i = 0 ; i < n ; i++){
-        for(int j = 0 ; j < n ; j++){
-            cin >> arr[i][j];
-            if(arr[i][j] == 1 || i==j) //같은 부모 노드를 갖도록함
-                unionParent(parent, i+1, j+1); 
-        }
-    }
-
     for(int i = 0 ; i < m ; i++){
-        cin >> dst[i];
-        if(i > 0){
-            if(!findParent(parent, dst[i-1], dst[i])){
-                cout << "NO";
-                return 0;
-            }
+        int x, y, z;
+        cin >> x >> y >> z;
+
+        if(x == 0) unionParent(parent, y, z);
+        else if(x == 1){
+            if(findParent(parent, y, z))
+                cout << "YES" << "\n";
+            else
+                cout << "NO" << "\n";
         }
     }
-
-    cout << "YES";
 
     return 0;
 }

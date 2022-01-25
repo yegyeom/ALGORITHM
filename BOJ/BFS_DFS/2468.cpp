@@ -1,3 +1,8 @@
+/*
+BOJ 2468번: 안전 영역
+DATE: 2021-02-06
+DFS
+*/
 #include <iostream>
 #include <cstring>
 #include <vector>
