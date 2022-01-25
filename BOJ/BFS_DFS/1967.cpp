@@ -1,3 +1,7 @@
+/*
+BOJ 1967번: 트리의 지름
+DATE: 2021-01-21
+*/
 #include <iostream>
 #include <vector>
 #include <string.h>

@@ -1,3 +1,8 @@
+/*
+BOJ 7562번: 나이트의 이동
+DATE: 2021-01-25
+BFS
+*/
 #include <iostream>
 #include <queue>
 #include <string.h>

@@ -1,3 +1,8 @@
+/*
+BOJ 14226번: 이모티콘
+DATE: 2021-01-25
+BFS
+*/
 #include <iostream>
 #include <queue>
 #define MAX 1001

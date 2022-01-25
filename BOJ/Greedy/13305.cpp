@@ -1,3 +1,7 @@
+/*
+BOJ 13305번: 주유소
+DATE: 2021-01-06
+*/
 #include <iostream>
 using namespace std;
 long long rate[100001], dst[100000];

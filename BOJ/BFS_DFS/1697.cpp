@@ -1,3 +1,8 @@
+/*
+BOJ 1697번: 숨바꼭질
+DATE: 2021-01-20
+BFS
+*/
 #include <iostream>
 #include <queue>
 #define MAX 100001

@@ -1,3 +1,7 @@
+/*
+BOJ 11047¹ø: µ¿Àü 0
+DATE: 2021-01-10
+*/
 #include <iostream>
 using namespace std;
 

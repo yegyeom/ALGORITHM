@@ -1,3 +1,7 @@
+/*
+BOJ 2513번: 통학버스
+DATE: 2021-01-14
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

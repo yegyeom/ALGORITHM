@@ -1,3 +1,8 @@
+/*
+BOJ 2178¹ø: ¹Ì·Î Å½»ö
+DATE: 2021-01-19
+BFS
+*/
 #include <iostream>
 #include <queue>
 #define MAX 100

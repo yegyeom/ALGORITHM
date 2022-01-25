@@ -1,3 +1,7 @@
+/*
+BOJ 11501╧Ь: аж╫д
+DATE: 2021-01-10
+*/
 #include <iostream>
 using namespace std;
 int price[1000000] = { 0, };

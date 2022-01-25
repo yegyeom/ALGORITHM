@@ -1,3 +1,7 @@
+/*
+BOJ 15903번: 카드 합체 놀이
+DATE: 2021-01-10
+*/
 #include <iostream>
 #include <queue>
 using namespace std;

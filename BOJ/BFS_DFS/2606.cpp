@@ -1,3 +1,8 @@
+/*
+BOJ 2606번: 바이러스
+DATE: 2021-01-18
+BFS
+*/
 #include <iostream>
 #include <queue>
 using namespace std;
