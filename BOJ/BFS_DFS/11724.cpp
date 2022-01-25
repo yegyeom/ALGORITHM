@@ -1,6 +1,8 @@
-//BOJ 11724번: 연결 요소의 개수
-//2021-05-25
-//DFS, BFS
+/*
+BOJ 11724번: 연결 요소의 개수
+DATE: 2021-05-25
+DFS, BFS
+*/
 #include <iostream>
 #include <queue>
 #define MAX 1001

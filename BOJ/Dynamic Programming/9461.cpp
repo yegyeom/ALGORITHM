@@ -1,6 +1,8 @@
-//BOJ 9461번: 파도반 수열
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 9461번: 파도반 수열
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 #define MAX 101
 using namespace std;

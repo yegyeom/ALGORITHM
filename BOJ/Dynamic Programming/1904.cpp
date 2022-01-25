@@ -1,6 +1,8 @@
-//BOJ 1904번: 01타일
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 1904번: 01타일
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 #define MOD 15746
 #define MAX 1000001

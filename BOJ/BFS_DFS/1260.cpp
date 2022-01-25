@@ -1,5 +1,6 @@
-//BOJ 1260번: DFS와 BFS
-//2021-05-19
+/*BOJ 1260번: DFS와 BFS
+DATE: 2021-05-19
+*/
 #include <iostream>
 #include <queue>
 #define MAX 1001

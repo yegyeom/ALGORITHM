@@ -1,6 +1,8 @@
-//BOJ 9184번: 신나는 함수 실행
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 9184번: 신나는 함수 실행
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 using namespace std;
 int dp[21][21][21];

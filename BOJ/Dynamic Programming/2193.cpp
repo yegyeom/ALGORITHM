@@ -1,6 +1,8 @@
-//BOJ 2193번: 이친수
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 2193번: 이친수
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 #define MAX 91
 using namespace std;

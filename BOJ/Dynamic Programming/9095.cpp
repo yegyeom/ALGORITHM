@@ -1,6 +1,8 @@
-//BOJ 9095번: 1, 2, 3 더하기
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 9095번: 1, 2, 3 더하기
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 using namespace std;
 int dp[11];

@@ -1,6 +1,8 @@
-//BOJ 1003번: 피보나치 함수
-//2021-05-28
-//Dynamic programming
+/*
+BOJ 1003번: 피보나치 함수
+DATE: 2021-05-28
+Dynamic programming
+*/
 #include <iostream>
 using namespace std;
 
