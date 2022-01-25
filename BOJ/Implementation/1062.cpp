@@ -1,5 +1,7 @@
-//BOJ 1062번: 가르침
-//2021-10-20
+/*
+BOJ 1062번: 가르침
+DATE: 2021-10-20
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

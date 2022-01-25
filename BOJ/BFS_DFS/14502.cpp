@@ -1,5 +1,8 @@
-//BOJ 14502번: 연구소
-//2021-10-07
+/*
+BOJ 14502번: 연구소
+DATE: 2021-10-07
+BFS
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

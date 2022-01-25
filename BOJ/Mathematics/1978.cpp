@@ -1,5 +1,7 @@
-//BOJ 1978번: 소수 찾기
-//2021-10-09
+/*
+BOJ 1978번: 소수 찾기
+DATE: 2021-10-09
+*/
 #include <iostream>
 #include <vector>
 #include <math.h>

@@ -1,6 +1,8 @@
-//BOJ 14501번: 퇴사
-//2021-10-07
-//Dynamic Programming
+/*
+BOJ 14501번: 퇴사
+DATE: 2021-10-07
+Dynamic Programming
+*/
 #include <iostream>
 #include <algorithm>
 #include <vector>

@@ -1,5 +1,7 @@
-//BOJ 1929번: 소수 구하기
-//2021-10-10
+/*
+BOJ 1929번: 소수 구하기
+DATE: 2021-10-10
+*/
 #include <iostream>
 #include <math.h>
 using namespace std;

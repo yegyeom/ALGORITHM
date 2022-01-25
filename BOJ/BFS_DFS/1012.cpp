@@ -1,5 +1,8 @@
-//BOJ 1012번: 유기농 배추
-//2021-10-25
+/*
+BOJ 1012번: 유기농 배추
+DATE: 2021-10-25
+BFS
+*/
 #include <iostream>
 #include <string.h>
 #include <queue>

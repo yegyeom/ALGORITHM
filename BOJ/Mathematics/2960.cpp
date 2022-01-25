@@ -1,5 +1,7 @@
-//BOJ 2960번: 에라토스테네스의 체
-//2021-10-10
+/*
+BOJ 2960번: 에라토스테네스의 체
+DATE: 2021-10-10
+*/
 #include <iostream>
 #include <math.h>
 using namespace std;

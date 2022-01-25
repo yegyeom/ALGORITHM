@@ -1,5 +1,7 @@
-//BOJ 1039번: 교환
-//2021-10-16
+/*
+BOJ 1039번: 교환
+DATE: 2021-10-16
+*/
 #include <iostream>
 #include <queue>
 #include <set>

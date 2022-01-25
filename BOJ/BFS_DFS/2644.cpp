@@ -1,5 +1,8 @@
-//BOJ 2644번: 촌수계산
-//2021-10-18
+/*
+BOJ 2644번: 촌수계산
+DATE: 2021-10-18
+DFS
+*/
 #include <iostream>
 using namespace std;
 

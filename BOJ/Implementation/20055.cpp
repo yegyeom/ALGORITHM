@@ -1,5 +1,7 @@
-//BOJ 20055번: 컨베이어 벨트 위의 로봇
-//2021-10-21
+/*
+BOJ 20055번: 컨베이어 벨트 위의 로봇
+DATE: 2021-10-21
+*/
 #include <iostream>
 #include <vector>
 using namespace std;

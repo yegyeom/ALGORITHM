@@ -1,5 +1,7 @@
-//BOJ 1966번: 프린터 큐
-//2021-10-14
+/*
+BOJ 1966번: 프린터 큐
+2021-10-14
+*/
 #include <iostream>
 #include <queue>
 using namespace std;

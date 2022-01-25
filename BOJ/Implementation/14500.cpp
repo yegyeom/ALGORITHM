@@ -1,5 +1,7 @@
-//BOJ 14500번: 테트로미노
-//2021-10-13
+/*
+BOJ 14500번: 테트로미노
+DATE: 2021-10-13
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

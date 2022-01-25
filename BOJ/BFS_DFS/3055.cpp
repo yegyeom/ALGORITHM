@@ -1,5 +1,8 @@
-//BOJ 3055번: 탈출
-//2021-10-12
+/*
+BOJ 3055번: 탈출
+DATE: 2021-10-12
+BFS
+*/
 #include <iostream>
 #include <queue>
 #include <vector>

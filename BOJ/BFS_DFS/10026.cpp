@@ -1,6 +1,8 @@
-//BOJ 10026번: 적록색약
-//2021-10-14
-//DFS
+/*
+BOJ 10026번: 적록색약
+DATE: 2021-10-14
+DFS
+*/
 #include <iostream>
 #include <cstring>
 using namespace std;
