@@ -1,5 +1,7 @@
-//BOJ 11651번: 좌표 정렬하기 2
-//2021-04-29
+/*
+BOJ 11651번: 좌표 정렬하기 2
+DATE: 2021-04-29
+*/
 #include <iostream>
 #include <queue>
 using namespace std;

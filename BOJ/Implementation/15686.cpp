@@ -1,5 +1,7 @@
-//BOJ 15686번: 치킨 배달
-//구현
+/*
+BOJ 15686번: 치킨 배달
+DATE: 2021-04-17
+*/
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -74,7 +76,7 @@ int main(){
             c_dst += dst;
         }
     }
-    else{ //치킨 가게가 최대 m개 있어야하는 경우 - cv.size()개 중에 m개를 선택하는 조합 
+    else{ //치킨 가게가 최대 m개 있어야하는 경우: cv.size()개 중에 m개를 선택하는 조합 
         combination(0, 1);
         c_dst = pq.top();
     }

@@ -1,6 +1,8 @@
-//BOJ 11404번: 플로이드
-//2021-04-12
-//Floyd-Warshall
+/*
+BOJ 11404번: 플로이드
+DATE: 2021-04-12
+Floyd-Warshall
+*/
 #include <iostream>
 #define INF 1e9
 using namespace std;

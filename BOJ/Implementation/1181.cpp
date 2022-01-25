@@ -1,5 +1,7 @@
-//BOJ 1181번: 단어 정렬
-//2021-04-29
+/*
+BOJ 1181번: 단어 정렬
+DATE: 2021-04-29
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -18,7 +20,7 @@ int main(){
         v.push_back(make_pair(str.length(), str));
     }
 
-    sort(v.begin(), v.end(), less<>());
+    sort(v.begin(), v.end());
     v.erase(unique(v.begin(), v.end()), v.end()); 
 
     for(int i = 0 ; i < v.size() ; i++){

@@ -1,5 +1,7 @@
-//BOJ 1427번: 소트인사이드
-//2021-04-29
+/*
+BOJ 1427번: 소트인사이드
+DATE: 2021-04-29
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

@@ -1,5 +1,7 @@
-//BOJ 2751번: 수 정렬하기 2
-//2021-04-12
+/*
+BOJ 2751번: 수 정렬하기 2
+DATE: 2021-04-12
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

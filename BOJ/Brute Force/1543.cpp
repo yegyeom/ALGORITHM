@@ -1,3 +1,7 @@
+/*
+BOJ 1543번: 문서 검색
+DATE: 2021-04-04
+*/
 #include <iostream>
 #include <string>
 
@@ -21,8 +25,7 @@ int main(){
                 ans++;
                 i -= 1;
             }
-            else
-                i -= search.size();
+            else i -= search.size();
         }
         cnt = 0;
     }
