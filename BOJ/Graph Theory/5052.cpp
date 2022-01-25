@@ -1,3 +1,7 @@
+/*
+BOJ 5052번: 전화번호 목록
+DATE: 2021-03-29
+*/
 #include <iostream>
 #include <string>
 #include <cstring>

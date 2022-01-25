@@ -1,3 +1,7 @@
+/*
+BOJ 2529번: 부등호
+DATE: 2021-03-04
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -21,14 +25,10 @@ int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     cin >> k;
 
-    for(int i = 0 ; i < k ; i++){
-        cin >> arr[i];
-    }
+    for(int i = 0 ; i < k ; i++) cin >> arr[i];
 
 //max
-    for(int i = 9 ; i >= 9-k ; i--){
-        maxNum.push_back(i);
-    }
+    for(int i = 9 ; i >= 9-k ; i--) maxNum.push_back(i);
 
     while(1){
         if(check(maxNum)){
@@ -38,9 +38,7 @@ int main(){
     }
 
 //min
-    for(int i = 0 ; i <= k ; i++){
-        minNum.push_back(i);
-    }
+    for(int i = 0 ; i <= k ; i++) minNum.push_back(i);
 
     while(1){
         if(check(minNum)){
@@ -49,13 +47,10 @@ int main(){
         else break;
     }
 
-    for(int i = 0 ; i < k+1 ; i++)
-        cout << maxNum[i];
-    cout << "\n";
-
-    for(int i = 0 ; i < k+1 ; i++)
-        cout << minNum[i];
-    cout << "\n";
+    for(int i = 0 ; i < k+1 ; i++) cout << maxNum[i];
+    cout << '\n';
+    for(int i = 0 ; i < k+1 ; i++) cout << minNum[i];
+    cout << '\n';
 
     return 0;
 }

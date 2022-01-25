@@ -1,3 +1,7 @@
+/*
+BOJ 2623번: 음악프로그램
+DATE: 2021-03-04
+*/
 #include <iostream>
 #include <vector>
 #include <queue>

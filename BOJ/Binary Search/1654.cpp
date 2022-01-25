@@ -1,3 +1,8 @@
+/*
+BOJ 1654번: 랜선 자르기 
+DATE: 2021-03-23
+Binary Search
+*/
 #include <iostream>
 #define MAX 
 using namespace std;
@@ -9,6 +14,7 @@ int main(){
     cin >> k >> n;
 
     int length[k];
+
     for(int i = 0 ; i < k ; i++){
         cin >> length[i];
         sum += length[i];
@@ -29,9 +35,7 @@ int main(){
             start = mid + 1;
             if(mid > max) max = mid;
         }
-        else{
-            end = mid - 1;
-        }
+        else end = mid - 1;
     }
 
     cout << max;

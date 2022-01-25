@@ -1,3 +1,8 @@
+/*
+BOJ 3079번: 입국심사
+DATE: 2021-03-21
+Binary Search
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

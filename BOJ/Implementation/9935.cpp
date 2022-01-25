@@ -1,3 +1,7 @@
+/*
+BOJ 9935번: 문자열 폭발
+DATE: 2021-03-22
+*/
 #include <iostream>
 #include <string>
 using namespace std;
