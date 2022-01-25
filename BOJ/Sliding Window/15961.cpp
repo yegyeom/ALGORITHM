@@ -1,5 +1,8 @@
-//BOJ 15961번: 회전 초밥
-//2021-08-03
+/*
+BOJ 15961번: 회전 초밥
+DATE: 2021-08-03
+Sliding Window
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
