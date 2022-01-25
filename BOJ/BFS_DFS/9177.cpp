@@ -1,5 +1,7 @@
-//BOJ 9177번: 단어 섞기
-//2021-09-19
+/*
+BOJ 9177번: 단어 섞기
+DATE: 2021-09-19
+*/
 #include <iostream>
 using namespace std;
 

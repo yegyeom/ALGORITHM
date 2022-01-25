@@ -1,5 +1,8 @@
-//BOJ 15900번: 나무 탈출
-//2021-09-10
+/*
+BOJ 15900번: 나무 탈출
+DATE: 2021-09-10
+DFS
+*/
 #include <iostream>
 #include <vector>
 #define MAX 500001
