@@ -1,5 +1,8 @@
-//BOJ 17404번: RGB거리 2
-//2021-07-29
+/*
+BOJ 17404번: RGB거리 2
+DATE: 2021-07-29
+Dynamic Programming
+*/
 #include <iostream>
 #include <algorithm>
 #define MAX 987654321

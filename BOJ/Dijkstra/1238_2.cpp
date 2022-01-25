@@ -1,6 +1,8 @@
-//BOJ 1238번: 파티
-//Dijkstra Algorithm
-//2021-07-13
+/*
+BOJ 1238번: 파티
+DATE: 2021-07-13
+Dijkstra Algorithm
+*/
 #include <iostream>
 #include <queue>
 #include <algorithm>

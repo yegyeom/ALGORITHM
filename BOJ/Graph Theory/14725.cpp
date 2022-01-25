@@ -1,5 +1,7 @@
-//BOJ 14725¹ø: °³¹Ì±¼
-//2021-07-05
+/*
+BOJ 14725ë²ˆ: ê°œë¯¸êµ´
+DATE: 2021-07-05
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

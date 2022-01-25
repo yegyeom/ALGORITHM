@@ -1,5 +1,8 @@
-//BOJ 1149번: RGB거리
-//2021-07-27
+/*
+BOJ 1149번: RGB거리
+DATE: 2021-07-27
+Dynamic Programming
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

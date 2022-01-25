@@ -1,5 +1,7 @@
-//BOJ 1339번: 단어 수학
-//2021-07-18
+/*
+BOJ 1339번: 단어 수학
+DATE: 2021-07-18
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

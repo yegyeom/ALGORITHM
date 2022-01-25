@@ -1,5 +1,7 @@
-//BOJ 3452번: 고스택
-//2021-07-06
+/*
+BOJ 3452번: 고스택
+DATE: 2021-07-06
+*/
 #include <iostream>
 #include <vector>
 #define MAX 1000000000

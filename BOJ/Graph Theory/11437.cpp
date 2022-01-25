@@ -1,5 +1,7 @@
-//BOJ 11438번: LCA
-//2021-07-13
+/*
+BOJ 11438번: LCA
+DATE: 2021-07-13
+*/
 #include <iostream>
 #include <vector>
 #include <queue>

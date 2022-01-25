@@ -1,5 +1,7 @@
-//BOJ 13398번: 연속합 2
-//2021-07-20 
+/*
+BOJ 13398번: 연속합 2
+DATE: 2021-07-20 
+*/
 #include <iostream>
 #include <algorithm>
 #define MAX 100001

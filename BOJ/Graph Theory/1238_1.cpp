@@ -1,6 +1,8 @@
-//BOJ 1238번: 파티
-//2021-07-12
-//Floyd Warshall Algorithm
+/*
+BOJ 1238번: 파티
+DATE: 2021-07-12
+Floyd Warshall Algorithm
+*/
 #include <iostream>
 #include <algorithm>
 #define MAX 1000

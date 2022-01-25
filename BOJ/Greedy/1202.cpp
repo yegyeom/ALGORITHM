@@ -1,5 +1,7 @@
-//BOJ 1202¹ø: º¸¼® µµµÏ
-//2021-07-19
+/*
+BOJ 1202¹ø: º¸¼® µµµÏ
+DATE: 2021-07-19
+*/
 #include <iostream>
 #include <vector>
 #include <map>

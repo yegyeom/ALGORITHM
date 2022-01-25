@@ -1,5 +1,7 @@
-//BOJ 1713번: 후보 추천하기
-//2021-07-17
+/*
+BOJ 1713번: 후보 추천하기
+DATE: 2021-07-17
+*/
 #include <iostream>
 #include <map>
 #include <vector>

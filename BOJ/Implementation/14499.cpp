@@ -1,5 +1,7 @@
-//BOJ 14499번: 주사위 굴리기
-//2021-07-02
+/*
+BOJ 14499번: 주사위 굴리기
+DATE: 2021-07-02
+*/
 #include <iostream>
 using namespace std;
 

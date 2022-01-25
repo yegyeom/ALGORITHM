@@ -1,5 +1,7 @@
-//BOJ 1912번: 연속합
-//2021-07-20
+/*
+BOJ 1912번: 연속합
+DATE: 2021-07-20
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
