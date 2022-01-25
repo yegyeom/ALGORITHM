@@ -1,6 +1,8 @@
-//BOJ 3273번: 두 수의 합
-//2021-06-01
-//Two Pointers
+/*
+BOJ 3273번: 두 수의 합
+DATE: 2021-06-01
+Two Pointer
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

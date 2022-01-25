@@ -1,6 +1,8 @@
-//BOJ 2003번: 수들의 합 2
-//2021-06-01
-//Two Pointers
+/*
+BOJ 2003번: 수들의 합 2
+DATE: 2021-06-01
+Two Pointer
+*/
 #include <iostream>
 #define MAX 10001
 using namespace std;

@@ -1,6 +1,8 @@
-//BOJ 1806번: 부분합
-//2021-06-01
-//Two Pointers
+/*
+BOJ 1806번: 부분합
+DATE: 2021-06-01
+Two Pointer
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
