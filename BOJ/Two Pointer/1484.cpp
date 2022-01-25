@@ -1,7 +1,7 @@
 /*
 BOJ 1484번: 다이어트
 2021-12-28
-Two pointers
+Two pointer
 */
 #include <iostream>
 #include <vector>

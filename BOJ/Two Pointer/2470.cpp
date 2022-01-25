@@ -1,7 +1,7 @@
 /*
 BOJ 2470번: 두 용액
 2021-12-28
-Two pointers
+Two pointer
 */
 #include <iostream>
 #include <algorithm>
