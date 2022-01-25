@@ -1,5 +1,7 @@
-//BOJ 2866번: 문자열 잘라내기
-//2021-11-16
+/*
+BOJ 2866번: 문자열 잘라내기
+DATE: 2021-11-16
+*/
 #include <iostream>
 #include <set>
 using namespace std;

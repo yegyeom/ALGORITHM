@@ -1,6 +1,9 @@
-//BOJ 2110번: 공유기 설치
-//2021-07-01
-//2021-11-29
+/*
+BOJ 2110번: 공유기 설치
+DATE: 2021-07-01
+UPDATE: 2021-11-29
+Binary Search
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;

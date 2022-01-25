@@ -1,5 +1,7 @@
-//BOJ 21608번: 상어 초등학교
-//2021-11-08
+/*
+BOJ 21608번: 상어 초등학교
+DATE: 2021-11-08
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

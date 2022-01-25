@@ -1,5 +1,8 @@
-//BOJ 16234번: 인구 이동
-//2021-11-10
+/*
+BOJ 16234번: 인구 이동
+DATE: 2021-11-10
+DFS
+*/
 #include <iostream>
 #include <queue>
 #include <string.h>

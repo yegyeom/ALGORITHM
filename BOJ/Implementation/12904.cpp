@@ -1,5 +1,7 @@
-﻿//BOJ 12904번: A와 B
-//2021-11-22
+﻿/*
+BOJ 12904번: A와 B
+DATE: 2021-11-22
+*/
 #include <iostream>
 #include <algorithm>
 using namespace std;
