@@ -1,6 +1,7 @@
 /*
 BOJ 1477번: 휴게소 세우기
 2021-12-20
+Binary Search
 */
 #include <iostream>
 #include <algorithm>
