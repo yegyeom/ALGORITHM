@@ -1,5 +1,5 @@
 /*
-BOJ 5052¹ø: ÀüÈ­¹øÈ£ ¸ñ·Ï
+BOJ 5052ë²ˆ: ì „í™”ë²ˆí˜¸ ëª©ë¡
 DATE: 2021-03-29
 */
 #include <iostream>
@@ -20,27 +20,27 @@ struct Trie {
 	}
 
 	void insert(char* key) {
-		if (*key == '\0') { //ÀÔ·Â ³¡
+		if (*key == '\0') { //ì…ë ¥ ë
 			finish = true;
 		}
 		else {
 			int now = *key - '0';
 
-			if (next[now] == NULL) //¿¬°áµÈ ³ëµå ¾øÀ» ¶§
+			if (next[now] == NULL) //ì—°ê²°ëœ ë…¸ë“œ ì—†ì„ ë•Œ
 				next[now] = new Trie(); 
 			nextChild = true;
 
-			next[now]->insert(key + 1); //´ÙÀ½ ¹®ÀÚ¿­·Î ³Ñ¾î°¨
+			next[now]->insert(key + 1); //ë‹¤ìŒ ë¬¸ìì—´ë¡œ ë„˜ì–´ê°
 		}
 	}
 
 	bool find(char* key) {
-		if (*key == '\0') //³ëµå°¡ »ı¼ºµÇÁö ¾ÊÀº °æ¿ì
+		if (*key == '\0') //ë…¸ë“œê°€ ìƒì„±ë˜ì§€ ì•Šì€ ê²½ìš°
 			return false;
-		if (finish) //Á¸ÀçÇÏ´Â ¹®ÀÚ¿­ÀÏ °æ¿ì
+		if (finish) //ì¡´ì¬í•˜ëŠ” ë¬¸ìì—´ì¼ ê²½ìš°
 			return true;
 		int now = *key - '0';
-		return next[now]->find(key + 1); //´ÙÀ½ ¹®ÀÚ¿­·Î ³Ñ¾î°¨
+		return next[now]->find(key + 1); //ë‹¤ìŒ ë¬¸ìì—´ë¡œ ë„˜ì–´ê°
 	}
 };
 
@@ -62,7 +62,7 @@ int main(){
         }
         
         for(int i = 0 ; i < n ; i++){
-            if(trie->find(num[i])){ //ÇØ´ç ¹øÈ£°¡ Á¢µÎ¾î·Î Á¸Àç
+            if(trie->find(num[i])){ //í•´ë‹¹ ë²ˆí˜¸ê°€ ì ‘ë‘ì–´ë¡œ ì¡´ì¬
                 check = true;
                 break;
             }

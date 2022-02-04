@@ -1,5 +1,5 @@
 /*
-BOJ 9935¹ø: ¹®ÀÚ¿­ Æø¹ß
+BOJ 9935ë²ˆ: ë¬¸ìì—´ í­ë°œ
 DATE: 2021-03-22
 */
 #include <iostream>
@@ -25,16 +25,13 @@ using namespace std;
             if(cnt == bomb.length()){
                 ans.erase(ans.length()-bomb.length(), bomb.length());
             }
+
+            cnt = 0;
         }
-        cnt = 0;
     }
 
-    if(ans == ""){
-        cout << "FRULA";
-    }
-    else{
-        cout << ans;
-    }
+    if(ans == "") cout << "FRULA";
+    else cout << ans;
 
      return 0;
  }

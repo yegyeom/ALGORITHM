@@ -1,5 +1,5 @@
 /*
-BOJ 1654¹ø: ·£¼± ÀÚ¸£±â 
+BOJ 1654ë²ˆ: ëžœì„  ìžë¥´ê¸° 
 DATE: 2021-03-23
 Binary Search
 */
