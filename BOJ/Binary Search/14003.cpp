@@ -1,7 +1,6 @@
 /*
-BOJ 14002번: 가장 긴 증가하는 부분 수열 4
-DATE: 2022-01-06
-UPDATE: 2022-02-21
+BOJ 14002번: 가장 긴 증가하는 부분 수열 5
+DATE: 2022-02-21
 */
 #include <iostream>
 #include <vector>
