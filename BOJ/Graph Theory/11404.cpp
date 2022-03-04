@@ -1,9 +1,11 @@
 /*
 BOJ 11404번: 플로이드
 DATE: 2021-04-12
-Floyd-Warshall
+UPDATE: 2022-03-04
+Floyd-Warshall Algorithm
 */
 #include <iostream>
+#include <algorithm>
 #define INF 1e9
 using namespace std;
 
@@ -13,21 +15,12 @@ int main(){
     cin >> n >> m;
 
     int arr[n+1][n+1];
-    
-    for(int i = 1 ; i <= n ; i++){
-        for(int j = 1 ; j <= n ; j++){
-            if(i == j) arr[i][j] = 0;
-            else arr[i][j] = INF;
-        }
-    }
+    fill(&arr[0][0], &arr[n][n + 1], INF);
 
     for(int i = 0 ; i < m ; i++){
         int a, b, c;
         cin >> a >> b >> c;
-        if(arr[a][b] > 0) 
-            arr[a][b] = min(arr[a][b], c);
-        else 
-            arr[a][b] = c;
+        arr[a][b] = min(arr[a][b], c);
     }
 
     for(int k = 1 ; k <= n ; k++){ //거쳐가는 노드
@@ -41,14 +34,8 @@ int main(){
 
     for(int i = 1 ; i <= n ; i++){
         for(int j = 1 ; j <= n ; j++){
-            if(arr[i][j] == INF)
-                arr[i][j] = 0;
-        }
-    }
-
-    for(int i = 1 ; i <= n ; i++){
-        for(int j = 1 ; j <= n ; j++){
-            cout << arr[i][j] << " ";
+            if(i == j || arr[i][j] == INF) cout << 0 << " ";
+            else cout << arr[i][j] << " ";
         }
         cout << "\n";
     }
